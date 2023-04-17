@@ -1,0 +1,24 @@
+# ignore OS-specified files:
+.DS_Store 
+Thumbs.db 
+Desktop.ini 
+
+# Editor-specific settings:
+
+.idea/
+.vscode/
+
+# debug logs:
+
+*.log
+*.dSYM/
+*.pdb
+
+#buid tools:
+
+build/
+dist/
+node_modules/
+
+# ignore files:
+.env*
